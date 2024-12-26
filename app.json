@@ -1,0 +1,72 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.papertrail",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Papertrail"
+  },
+  "description": {
+    "en": "Take a look behind the scenes of your apps and flows"
+  },
+  "category": [
+    "internet"
+  ],
+  "api": {
+    "logMessage": {
+      "method": "POST",
+      "path": "/log",
+      "public": false
+    }
+  },
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Peter Jensen"
+  },
+  "brandColor": "#04498f",
+  "tags": {
+    "en": [
+      "log"
+    ]
+  },
+  "contributors": {
+    "developers": []
+  },
+  "flow": {
+    "actions": [
+      {
+        "id": "send_log_to_papertrail",
+        "title": {
+          "en": "Send log to Papertrail"
+        },
+        "titleFormatted": {
+          "en": "Send log to Papertrail: Program [[program]] with message '[[message]]'"
+        },
+        "args": [
+          {
+            "name": "program",
+            "type": "text",
+            "title": {
+              "en": "Program Name"
+            }
+          },
+          {
+            "name": "message",
+            "type": "text",
+            "title": {
+              "en": "Log Message"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+This app allows you to easily send log messages to Papertrail from your Homey system. Whether it's tracking system events, debugging issues, or simply keeping a record of important actions, Papertrail provides a centralized place for all your log data.
+
+By integrating Papertrail with Homey, you can trigger logs directly from Homey flows or enable logging functionality for apps that support it. This ensures you always have insights into what's happening in your home, improving troubleshooting and system transparency.
